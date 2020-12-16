@@ -1,0 +1,80 @@
+body {font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;}
+  h1{ color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: semi-expanded;
+  text-shadow: -4px 4px 6px black;
+  margin: 0 auto;
+  text-align: center;
+ 
+  }
+  
+  p {font-size: 12 padding-top;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;}
+     .floated {background-color:lightgray;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: .2em;
+  margin-left: .5em;
+  margin-bottom: .5em;
+  float:right;
+  text-align: right;
+  width: 50%;}
+  section{border: 1px;}
+  li{color:white;}
+  ul{color:white;}
+  .mine{
+      background-color: grey;
+      font-size: large ;
+      padding: .2em;
+  margin-left: .5em;
+  margin-bottom: .5em;
+  float:left;
+  text-align:centre;
+  width: 10%;}
+div{
+    background-color: grey;
+    
+}
+div.first{
+    background-color: rgb(190, 168, 168);
+}
+.slidecontainer {
+width: 100%;
+}
+
+.slider {
+-webkit-appearance: none;
+width: 100%;
+height: 25px;
+background: #d3d3d3;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
+}
+
+.slider:hover {
+opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+background: #404440;
+cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+width: 25px;
+height: 25px;
+background: #404440;
+cursor: pointer;
+}
+.mine2{text-align: center;}
+.mine3{color: white;}
+a{color: white;}
+  

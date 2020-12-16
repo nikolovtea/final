@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Avocadorable's blog</title>   
+        <link rel = "stylesheet" type = "text/css" href = "style.css">     
+    
+    <style type="text/css">
+        body {font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: black;}
+      h1{ color:black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-stretch: semi-expanded;
+      text-shadow: -4px 4px 6px black;
+      margin: 0 auto;
+      text-align: center;
+     
+      }
+      p {font-size: 12 padding-top;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;}
+      .special {color:indigo;
+      font-weight: bold;}
+      .floated {background-color:lightgray;
+      font-size: 1.5em;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: .2em;
+      margin-left: .5em;
+      margin-bottom: .5em;
+      float:right;
+      text-align: right;
+      width: 50%;}
+      section{border:coral 1px;}
+      a {
+          font-weight: bold;
+          color: rgb(212, 138, 163);
+      }
+      
+    </style>
+    </head>
+    <body>
+        <header>
+            <img src="slika1.jpg" alt="Tea Nikolov" width="1330" height="200">
+            
+        </header>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Favorites 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="music.html">Music</a>
+                    <a href="movies.html">Movies</a>
+                    <a href="food.html">Food</a>
+                </div>
+            </div>            
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="poll.html">For you</a>
+            <a href="contact.html" style="float: right">Contact</a>
+        </div>
+        
+            <section>
+                <h1 class="floated">Black holes</h1>
+                <p>
+                    Don't let the name fool you: a black hole is anything but empty space. Rather, it is a great amount of matter packed into a very small area - think of a star ten times more massive than the Sun squeezed into a sphere approximately the diameter of New York City. The result is a gravitational field so strong that nothing, not even light, can escape. In recent years, NASA instruments have painted a new picture of these strange objects that are, to many, the most fascinating objects in space.
+                    The idea of an object in space so massive and dense that light could not escape it has been around for centuries. Most famously, black holes were predicted by Einstein's theory of general relativity, which showed that when a massive star dies, it leaves behind a small, dense remnant core. If the core's mass is more than about three times the mass of the Sun, the equations showed, the force of gravity overwhelms all other forces and produces a black hole.
+                </p>
+                <p>
+                   <a href="https://science.nasa.gov/astrophysics/focus-areas/black-holes"><figure> <img src="slika16.jpg" alt="Black Holes" width="150" height="200"><figcaption>For the whole text click on the picture</figcaption></figure></a>
+                </p>
+                </section>
+                <section>
+                    <h1 class="floated">Section for you</h1>
+                    <p>I am very intersted in black holes and dark matters. If you are too we can share our opinions and web pages here</p>
+                    <p><label>Name: 
+                        <input name = "name" type = "text" size = "25">
+                     </label></p>
+                     <p><label>E-mail Address so I can email you intersting things about common interests: 
+                        <input name = "email" type = "text"  size = "25">
+                     </label></p> 
+                    <p> <label for="start">Date of publishing:</label>
+                     <input type="date" id="start" name="trip-start" value="2020-10-27" min="2020-10-27" max="2021-12-31">
+                     <p><label>Write something similar to this topic:<br>
+                        <textarea name = "comments"
+                           rows = "10" cols = "100"></textarea>
+                     </label></p>' <form method = "post" action = "thanks.html">
+
+                        <input type = "hidden" name = "recipient"
+                           value = "nikolov.tea@gmail.com">
+                        <input type = "hidden" name = "subject" 
+                           value = "Feedback Form">
+                        <input type = "hidden" name = "redirect" 
+                           value = "unicorn.html         "> 
+                           <p>
+                            <input type = "submit" value = "Submit">
+                            <input type = "reset" value = "Clear">
+                         </p>   
+                        </form>
+
+       <p>Links for interesting pages<br><br>
+           <a href="https://www.space.com/15421-black-holes-facts-formation-discovery-sdcmp.html">Black Holes: Facts, Theory & Definition | Space</a><br>
+           <a href="https://astronomy.com/magazine/2019/08/a-brief-history-of-black-holes">A brief history of black holes</a><br>
+           <a href="https://spaceandbeyondbox.com/the-different-types-of-black-holes-and-how-they-form/">The different types of black holes and how they form</a>
+
+       </p>
+
+                </section>
+    
+    </body>
+</html>
