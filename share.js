@@ -1,7 +1,6 @@
-var text = encodeURIComponent("Follow JavaScript Jeep form Amazing JavaScript Tutorial");
-var url = "https://medium.com/@jagathishsaravanan/"; 
-var user_id = "jagathish1123";
-var hash_tags = "JS,JavaScript,100DaysOfCode,Programming";
+var text = encodeURIComponent("W3SCHOOLS");
+var url = "https://www.w3schools.com/";
+var hash_tags = "My first web page";
 var params = "menubar=no,toolbar=no,status=no,width=570,height=570"; // for window
 
 var facebook = document.querySelector('.facebook');
