@@ -1,38 +1,64 @@
-var button = document.getElementById("clickme"),
-  count = 0;
-button.onclick = function() {
-  count += 1;
-  button.innerHTML = "Like: " + count;
-};
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " likes.";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+function clickCounter2() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount2) {
+      localStorage.clickcount2 = Number(localStorage.clickcount2)+1;
+    } else {
+      localStorage.clickcount2 = 1;
+    }
+    document.getElementById("result2").innerHTML = "You have " + localStorage.clickcount2 + " likes.";
+  } else {
+    document.getElementById("result2").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+function clickCounter3() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount3) {
+      localStorage.clickcount3 = Number(localStorage.clickcount3)+1;
+    } else {
+      localStorage.clickcount3 = 1;
+    }
+    document.getElementById("result3").innerHTML = "You have " + localStorage.clickcount3 + " likes.";
+  } else {
+    document.getElementById("result3").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+
+function clickCounter4() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount4) {
+      localStorage.clickcount4= Number(localStorage.clickcount4)+1;
+    } else {
+      localStorage.clickcount4 = 1;
+    }
+    document.getElementById("result4").innerHTML = "You have " + localStorage.clickcount4 + " likes.";
+  } else {
+    document.getElementById("result4").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+function clickCounter5() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount5) {
+      localStorage.clickcount5 = Number(localStorage.clickcount5)+1;
+    } else {
+      localStorage.clickcount5 = 1;
+    }
+    document.getElementById("result5").innerHTML = "You have " + localStorage.clickcount5 + " likes.";
+  } else {
+    document.getElementById("result5").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
 
 
-var button2 = document.getElementById("clickme2"),
-  count2 = 0;
-button2.onclick = function() {
-  count2 += 1;
-  button2.innerHTML = "Like: " + count2;
-};
 
-
-var button3 = document.getElementById("clickme3"),
-  count3 = 0;
-button3.onclick = function() {
-  count3 += 1;
-  button3.innerHTML = "Like: " + count3;
-};
-
-
-var button4 = document.getElementById("clickme4"),
-  count4 = 0;
-button4.onclick = function() {
-  count4 += 1;
-  button4.innerHTML = "Like: " + count4;
-};
-
-
-var button5 = document.getElementById("clickme5"),
-  count5 = 0;
-button5.onclick = function() {
-  count5 += 1;
-  button5.innerHTML = "Like: " + count5;
-};
